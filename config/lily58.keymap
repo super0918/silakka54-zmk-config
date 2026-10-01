@@ -15,6 +15,8 @@
             #binding-cells = <0>;
             bindings = <&kp R &kp B &kp G &kp W &kp N0 &kp N1 &kp N3 &kp ENTER &kp D &kp K &kp S &kp S &kp U &kp D &kp EXCL &kp N1 &kp N1 &kp ENTER &kp ENTER>;
             label = "MACRO1";
+            tap-ms = <1>;
+            wait-ms = <1>;
         };
 
         macro2: macro2 {
@@ -22,6 +24,8 @@
             #binding-cells = <0>;
             bindings = <&kp D &kp K &kp S &kp S &kp U &kp D &kp EXCL &kp N1 &kp N1 &kp ENTER>;
             label = "MACRO2";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         macro3: macro3 {
@@ -29,6 +33,8 @@
             #binding-cells = <0>;
             bindings = <&kp R &kp B &kp G &kp W &kp N0 &kp N1 &kp TAB &kp R &kp B &kp N2 &kp N4 &kp N3 &kp N7 &kp N8 &kp N0 &kp N0 &kp EXCL &kp ENTER>;
             label = "MACRO3";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         macro4: macro4 {
@@ -36,6 +42,8 @@
             #binding-cells = <0>;
             bindings = <&kp R &kp B &kp N2 &kp N4 &kp N3 &kp N7 &kp N8 &kp N0 &kp N0 &kp EXCL &kp ENTER>;
             label = "MACRO4";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         macro5: macro5 {
@@ -43,6 +51,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp N3 &kp N9 &kp N8 &kp N2 &kp N7 &kp N9 &kp N5 &kp TAB &kp N7 &kp N4 &kp N3 &kp N1 &kp TAB &kp N0 &kp N4 &kp N3 &kp N0>;
             label = "MACRO5";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         macro6: macro6 {
@@ -50,6 +60,8 @@
             #binding-cells = <0>;
             bindings = <&kp N0 &kp N0 &kp N0>;
             label = "MACRO6";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
 
         macro7: macro7 {
@@ -57,6 +69,8 @@
             #binding-cells = <0>;
             bindings = <&kp N1 &kp N1 &kp N0 &kp N1 &kp N1 &kp N1 &kp N4 &kp N4 &kp N0 &kp N4 &kp N8 &kp N2 &kp N0>;
             label = "MACRO7";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
     };
 
