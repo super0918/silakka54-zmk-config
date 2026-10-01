@@ -92,8 +92,8 @@
             display-name = "Lower";
             bindings = <
 &kp GRAVE     &kp LC(Z)  &kp LC(Y)    &kp LC(X)     &kp LC(C)        &kp LC(V)                      &kp ENTER          &kp TAB          &kp MINUS        &kp MINUS         &kp EQUAL  &kp BACKSPACE
-&kp LS(TAB)   &kp F2     &kp F3       &kp F4        &kp F5           &kp BACKSPACE                  &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_BRACKET  &kp RBKT   &trans
-&kp CAPSLOCK  &kp EXCL   &kp AT       &trans        &kp RIGHT_SHIFT  &kp DEL                        &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans            &kp RPAR   &kp ENTER
+&kp LS(TAB)   &macro1    &macro3      &macro5       &macro7          &kp BACKSPACE                  &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LEFT_BRACKET  &kp RBKT   &trans
+&kp CAPSLOCK  &macro2    &macro4      &trans        &kp RIGHT_SHIFT  &kp DEL                        &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans            &macro6    &kp ENTER
 &kp LG(V)     &kp LC(W)  &kp LA(TAB)  &trans        &trans           &kp END        &none    &none  &kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans            &trans     &trans
                                       &kp LEFT_ALT  &kp LEFT_GUI     &lt 2 ENTER    &none    &none  &lt 2 KP_NUMBER_0  &kp DOT          &kp COMMA
             >;
