@@ -112,7 +112,7 @@
             bindings = <
 &kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)      &kp LS(NUMBER_0)       &trans
 &trans         &trans            &trans            &trans            &trans            &trans                      &trans            &kp UP            &trans            &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp DEL
-&kp N4         &trans            &trans            &trans            &trans            &trans                      &kp LEFT          &kp DOWN          &kp RIGHT         &trans                &trans                 &kp END
+&trans         &trans            &trans            &trans            &trans            &trans                      &kp LEFT          &kp DOWN          &kp RIGHT         &trans                &trans                 &kp END
 &out OUT_TOG   &out OUT_BLE      &out OUT_USB      &trans            &trans            &trans      &none    &none  &trans            &trans            &trans            &trans                &trans                 &trans
                                                    &trans            &trans            &trans      &none    &none  &trans            &trans            &trans
             >;
